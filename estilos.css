@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+header .navbar {
+  background-color: rgb(214, 204, 194);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  box-shadow: 0px 0px 5px black;
+}
+header .navbar .nav-text {
+  font-weight: 500;
+}
+header .navbar .nav-log {
+  width: 50px;
+  height: 60px;
+}
+header .navbar .navbar-nav {
+  height: 100vh;
+  overflow-y: hidden;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 25px;
+}
+header .navbar .navbar-nav .nav-link {
+  color: black;
+}
+header .navbar .navbar-nav .nav-link:hover {
+  color: rgb(237, 237, 233);
+}
+
+.sec1 {
+  background: rgb(245, 235, 224);
+  background: linear-gradient(180deg, rgb(245, 235, 224) 15%, rgb(227, 213, 202) 50%, rgb(213, 189, 175) 50%, rgb(184, 144, 120) 85%);
+  height: 600px;
+  padding: 20px;
+  padding-top: 90px;
+  margin-top: 50px;
+}
+.sec1 .conteiner {
+  height: 450px;
+  width: 85% vh;
+  background-color: rgb(245, 235, 224);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.637);
+  border-radius: 1%;
+  padding-top: 20px;
+}
+.sec1 .conteiner .cont-cv {
+  background-image: url(./imgcv/bkg1.png);
+  height: 180px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(214, 204, 194);
+  border-radius: 100%;
+}
+.sec1 .conteiner .title-cv {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.sec1 .conteiner .boton {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+}
+.sec1 .conteiner .boton .btn-cv {
+  border-radius: 20px;
+  background-color: #D9C3B6;
+  color: black;
+  box-shadow: 0px 0px 5px 0px black;
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+}
+.sec1 .conteiner .boton .btn-proy {
+  border-radius: 20px;
+  background-color: #dcc9bd;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 0px black;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.sec1 .conteiner .menu-cv {
+  margin-top: 30px;
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.sec2 {
+  background-color: #b89078;
+  height: 300px;
+}
+
+footer {
+  height: 100px;
+  background-color: white;
+}/*# sourceMappingURL=estilos.css.map */
