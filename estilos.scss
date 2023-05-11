@@ -1,3 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+$font1:'Rajdhani', sans-serif;
+$font2:'Josefin Slab', serif;;
+$font3:'Roboto', sans-serif;
+$color1:rgb(214, 204, 194);
+$color2:rgb(237, 237, 233);
+$color3:rgb(245, 235, 224);
+$color4: #b89078;
+$color5: #D9C3B6;
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,35 +20,40 @@
 
 header{
     .navbar{
-        background-color: rgb(214, 204, 194);
+        background-color: $color1;
         position: absolute;
+        overflow-y: hidden;
         top: 0px;
         width: 100%;
         box-shadow: 0px 0px 5px black;
         .nav-text{
-            font-weight: 500;
+            font-weight: bold;
+            font-family: $font3;
+            font-size: 17px;
+            text-align: center;
+            padding-top: 15px;
         }
         .nav-log{
             width: 50px;
             height: 60px;
         }
         .navbar-nav{
-            height: 100vh;
+            height: 100%;
+            width: 100%;
             overflow-y: hidden;
             text-align: center;
-            margin-top: 100px;
             font-weight: 500;
             font-size: 25px;
             .nav-link{
                 color: black;
+                font-family: $font1;
             }
             .nav-link:hover{
-                color: rgb(237, 237, 233);
+                color: $color2;
             }
         }
     }   
 }
-
 .sec1{
     background: rgb(245,235,224);
     background: linear-gradient(180deg, rgba(245,235,224,1) 15%, rgba(227,213,202,1) 50%, rgba(213,189,175,1) 50%, rgba(184,144,120,1) 85%);
@@ -46,7 +64,7 @@ header{
     .conteiner{
         height: 450px;
         width: 85%vh;
-        background-color: rgb(245, 235, 224);   
+        background-color: $color3;   
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.637);
         border-radius: 1%;
         padding-top: 20px;
@@ -62,9 +80,12 @@ header{
             border-radius: 100%;
         }
         .title-cv1{
-            font-size: 20px;
+            font-size: 27px;
             text-align: center;
             margin-top: 20px;
+            font-family: $font3;
+            font-weight: bold;
+            text-shadow: black 0px 1px 2.5px;
         }
         .boton{
             display: block;
@@ -73,16 +94,19 @@ header{
             margin-top: 30px;
             .btn-cv{
                 border-radius: 20px;
-                background-color: #D9C3B6;
+                background-color: $color5;
                 color: black;
                 box-shadow: 0px 0px 5px 0px black;
                 border: none;
                 padding: 5px;
                 margin-right: 10px;
+                box-shadow: 0px 0px 15px 0px black;
+                font-family: $font1;
+                font-weight: bold;
             }
             .btn-proy{
                 border-radius: 20px;
-                background-color: #dcc9bd;
+                background-color: $color5;
                 color: rgb(255, 255, 255);
                 box-shadow: 0px 0px 5px 0px black;
                 border: none;
@@ -91,9 +115,17 @@ header{
                 padding-left: 15px;
                 padding-right: 15px;
                 text-align: center;
+                box-shadow: 0px 0px 15px 0px black;
+                font-family: $font1;
+                font-weight: bold;
+            }
+            .btn-cv:hover{
+                color: white;
+            }
+            .btn-proy:hover{
+                color: black;
             }
         }
-
         .menu-cv{
             margin-top: 30px;
             background-color: white;
@@ -106,26 +138,76 @@ header{
             .fa-whatsapp{
                 margin-left: 10px;
                 margin-right: 10px;
+                transition: all 0.5s;
+            }
+            .fa-linkedin-in{
+                transition: all 0.5s;
+            }
+            .fa-envelope{
+                transition: all 0.5s;
+            }
+            .fa-whatsapp:hover{
+                transform: scale(1.2);
+            }
+            .fa-linkedin-in:hover{
+                transform: scale(1.2);
+            }
+            .fa-envelope:hover{
+                transform: scale(1.2);
             }
         }
     }
 }
 
 .sec2{
-    background-color: #b89078;
-    height: 300px;
+    background-color: $color4;
+    height: 100%;
     .title-cv2{
-
+        font-family: $font1;
+        font-weight: bold;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 0px;
+        text-shadow: black 0px 1px 2.5px;
     }
     .text-sec2{
-
+        font-family: $font2;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right : 15px;
+        padding-bottom : 15px;
+        margin-bottom: 0px;
+        font-weight: bold;
     }
 }
 
 footer{
-    height: 200px;
-    background-color: white;
-    .call{
-
-    } 
+    height: 100%;
+    background-color: $color3;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    .title-foo{
+        font-family: $font3;
+        margin: 0px;
+        text-align: center;
+        font-size: 25px;
+        text-shadow: rgb(81, 81, 81) 0px 2px 5px;
+    }
+    .text-foo{
+        font-family: $font1;
+        font-size: 20px;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .priv-foo{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .text-foo:hover{
+        color: $color4;
+    }
 }
