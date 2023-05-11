@@ -61,7 +61,7 @@ header .navbar .navbar-nav .nav-link:hover {
   background-color: rgb(214, 204, 194);
   border-radius: 100%;
 }
-.sec1 .conteiner .title-cv {
+.sec1 .conteiner .title-cv1 {
   font-size: 20px;
   text-align: center;
   margin-top: 20px;
@@ -103,13 +103,16 @@ header .navbar .navbar-nav .nav-link:hover {
   padding-bottom: 5px;
   color: black;
 }
+.sec1 .conteiner .menu-cv .fa-whatsapp {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .sec2 {
   background-color: #b89078;
   height: 300px;
 }
-
 footer {
-  height: 100px;
+  height: 200px;
   background-color: white;
 }/*# sourceMappingURL=estilos.css.map */

@@ -61,7 +61,7 @@ header{
             background-color: rgb(214, 204, 194);
             border-radius: 100%;
         }
-        .title-cv{
+        .title-cv1{
             font-size: 20px;
             text-align: center;
             margin-top: 20px;
@@ -103,6 +103,10 @@ header{
             padding-top: 5px;
             padding-bottom: 5px;
             color: black;
+            .fa-whatsapp{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
         }
     }
 }
@@ -110,9 +114,18 @@ header{
 .sec2{
     background-color: #b89078;
     height: 300px;
+    .title-cv2{
+
+    }
+    .text-sec2{
+
+    }
 }
 
 footer{
-    height: 100px;
+    height: 200px;
     background-color: white;
+    .call{
+
+    } 
 }
