@@ -419,7 +419,7 @@ footer{
         }
         .cont-edu{
             background-color: $color2;
-            height: 300px;
+            height: 250px;
             margin-left: 650px;
             margin-right: 650px;
             margin-top: 50px;
@@ -429,20 +429,16 @@ footer{
             .art-edu{
                 display: flex;
                 justify-content: flex-start;
+                align-items: center;
                 .title-edu{
                     font-family: $font3;
                     font-weight: bold;
                     color: blue;
-                    padding-top: 70px;
+                    padding-top: 40px;
                     font-size: 25px;
                     text-align: center;
                 }
                 .text-edu{
-                    .bold{
-                        font-weight: bold;
-                        font-size: 20px;
-                    }
-                    padding-top: 60px;
                     text-align: center;
                     font-size: 15px;
                     padding-left: 20px;

@@ -408,7 +408,7 @@ footer .text-foo:hover {
   }
   .curriculum .cont-edu {
     background-color: rgb(237, 237, 233);
-    height: 300px;
+    height: 250px;
     margin-left: 650px;
     margin-right: 650px;
     margin-top: 50px;
@@ -419,25 +419,21 @@ footer .text-foo:hover {
   .curriculum .cont-edu .art-edu {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
   }
   .curriculum .cont-edu .art-edu .title-edu {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: blue;
-    padding-top: 70px;
+    padding-top: 40px;
     font-size: 25px;
     text-align: center;
   }
   .curriculum .cont-edu .art-edu .text-edu {
-    padding-top: 60px;
     text-align: center;
     font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center;
-  }
-  .curriculum .cont-edu .art-edu .text-edu .bold {
-    font-weight: bold;
-    font-size: 20px;
   }
 }/*# sourceMappingURL=estilos.css.map */
