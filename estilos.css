@@ -436,7 +436,7 @@ footer .text-foo:hover {
   .curriculum .cont-edu .art-edu .text-edu {
     text-align: center;
     font-size: 15px;
-    padding-left: 20px;
+    margin-left: 30px;
     padding-right: 20px;
   }
   .curriculum .cont-edu .art-edu .text-edu_ef {
@@ -444,6 +444,10 @@ footer .text-foo:hover {
     font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 30px;
+  }
+  .curriculum .cont-edu .art-edu .text-exp {
+    text-align: center;
     padding-top: 30px;
   }
 }/*# sourceMappingURL=estilos.css.map */
