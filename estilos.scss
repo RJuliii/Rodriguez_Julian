@@ -217,7 +217,7 @@ footer{
     }
 }
 
-@media only screen and (min-width:1850px) and (max-width:4000px){
+@media only screen and (min-width:1890px) and (max-width:4000px){
     header{
         .navbar{
             background-color: white;
@@ -485,24 +485,74 @@ footer{
                     font-size: 30px;
                     font-weight: bold;
                 }
-            .apt-list{
-                display: flex;
-                justify-content: start;
-                flex-wrap: wrap;
-                list-style-type: square;
-                .apt-li{
-                    color: blue;
-                    font-size: 25px;
-                    margin-top: 30px;
-                }
-                .apt-list_item{
-                    margin-right: 70px;
-                    color: black;
-                    font-size: 17px;
-                    font-family: $font2;
-                    font-weight: bold;
+                .apt-list{
+                    display: flex;
+                    justify-content: start;
+                    flex-wrap: wrap;
+                    list-style-type: square;
+                    .apt-li{
+                        color: blue;
+                        font-size: 25px;
+                        margin-top: 30px;
+                    }
+                    .apt-list_item{
+                        margin-right: 70px;
+                        color: black;
+                        font-size: 17px;
+                        font-family: $font2;
+                        font-weight: bold;
+                    }
                 }
             }
+        }
+    }
+    .proyect{
+        @extend .curriculum;
+        .text-proy{
+            text-align: center;
+            font-family: $font1;
+            padding-top: 50px;
+            font-weight: 500;
+            font-size: 25px;
+            margin-bottom: 60px;
+        }
+        .cont-proy{
+            background-color: $color2;
+            height: 550px;
+            margin-right: 400px;
+            margin-left: 400px;
+            box-shadow: -16px 10px 45px -19px rgba(0,0,0,0.75);
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            .img-proy{   
+                background-image: url(./imgcv/altreno.jpeg);
+                height: 550px;
+                width: 640px;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .title-proy{
+                font-size: 60px;
+                font-weight: bold;
+                color: blue;
+                font-family: $font1;
+                margin-top: 30px;
+                margin-left: 55px;
+            }
+            .subtitle-proy{
+                font-family: $font3;
+                font-weight: bold;
+                margin-left: 55px;
+                font-size: 35px;
+            }
+            .text-proy_info{
+                font-size: 35px;
+                margin-left: 55px;
+                font-family: $font2;
+                margin-top: 50px;
+                margin-right: 60px;
             }
         }
     }
