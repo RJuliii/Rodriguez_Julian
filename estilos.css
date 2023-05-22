@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 * {
   box-sizing: border-box;
@@ -426,28 +426,72 @@ footer .text-foo:hover {
   .curriculum .cont-edu .art-edu .title-edu {
     margin-left: 20px;
     margin-top: 15px;
-    font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: blue;
     font-size: 25px;
     text-align: center;
     text-shadow: black 0px 1px 2px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .curriculum .cont-edu .art-edu .text-fecha {
+    font-size: 17px;
+    font-family: "Josefin Slab", serif;
   }
   .curriculum .cont-edu .art-edu .text-edu {
     text-align: center;
     font-size: 15px;
     margin-left: 30px;
-    padding-right: 20px;
+    padding-right: 10px;
+    font-family: "Rajdhani", sans-serif;
   }
   .curriculum .cont-edu .art-edu .text-edu_ef {
     text-align: center;
     font-size: 15px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 15px;
     padding-top: 30px;
+    font-family: "Rajdhani", sans-serif;
   }
   .curriculum .cont-edu .art-edu .text-exp {
     text-align: center;
     padding-top: 30px;
+    padding-right: 15px;
+    margin-left: 30px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .curriculum .cont-apt {
+    background-color: rgb(237, 237, 233);
+    height: 550px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 50px;
+    box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+    border-radius: 2px;
+  }
+  .curriculum .cont-apt .apt {
+    padding: 50px;
+  }
+  .curriculum .cont-apt .apt .apt-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .curriculum .cont-apt .apt .apt-list {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    list-style-type: square;
+  }
+  .curriculum .cont-apt .apt .apt-list .apt-li {
+    color: blue;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .curriculum .cont-apt .apt .apt-list .apt-list_item {
+    margin-right: 70px;
+    color: black;
+    font-size: 17px;
+    font-family: "Josefin Slab", serif;
+    font-weight: bold;
   }
 }/*# sourceMappingURL=estilos.css.map */

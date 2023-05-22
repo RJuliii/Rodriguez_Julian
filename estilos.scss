@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 $font1:'Rajdhani', sans-serif;
@@ -435,30 +435,74 @@ footer{
                 .title-edu{
                     margin-left: 20px;
                     margin-top: 15px;
-                    font-family: $font3;
                     font-weight: bold;
                     color: blue;
                     font-size: 25px;
                     text-align: center;
                     text-shadow: black 0px 1px 2px;
+                    font-family: $font1;
+                }
+                .text-fecha{
+                    font-size: 17px;
+                    font-family: $font2 ;
                 }
                 .text-edu{
                     text-align: center;
                     font-size: 15px;
                     margin-left: 30px;
-                    padding-right: 20px;
+                    padding-right: 10px;
+                    font-family: $font1;
                 }
                 .text-edu_ef{
                     text-align: center;
                     font-size: 15px;
                     padding-left: 20px;
-                    padding-right: 20px;
+                    padding-right: 15px;
                     padding-top: 30px;
+                    font-family: $font1;
                 }
                 .text-exp{
                     text-align: center;
                     padding-top: 30px;
+                    padding-right: 15px;
+                    margin-left: 30px;
+                    font-family: $font1;
                 }
+            }
+        }
+        .cont-apt{
+            background-color: $color2;
+            height: 550px;
+            margin-left: 450px;
+            margin-right: 450px;
+            margin-top: 50px;
+            box-shadow: -16px 10px 45px -19px rgba(0,0,0,0.75);
+            border-radius: 2px;
+            .apt{
+                padding: 50px;
+                .apt-title{
+                    font-family: $font3;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+            .apt-list{
+                display: flex;
+                justify-content: start;
+                flex-wrap: wrap;
+                list-style-type: square;
+                .apt-li{
+                    color: blue;
+                    font-size: 25px;
+                    margin-top: 30px;
+                }
+                .apt-list_item{
+                    margin-right: 70px;
+                    color: black;
+                    font-size: 17px;
+                    font-family: $font2;
+                    font-weight: bold;
+                }
+            }
             }
         }
     }
