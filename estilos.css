@@ -364,12 +364,12 @@ footer .text-foo:hover {
     padding-right: 20px;
     margin-bottom: 0px;
   }
-  .curriculum, .proyect {
+  .curriculum, .proyect, .contact {
     background-color: rgb(214, 204, 194);
     height: 100%;
     padding-bottom: 50px;
   }
-  .curriculum .title-cv, .proyect .title-cv {
+  .curriculum .title-cv, .proyect .title-cv, .contact .title-cv {
     color: black;
     font-size: 50px;
     padding-top: 250px;
@@ -377,12 +377,12 @@ footer .text-foo:hover {
     font-family: "Rajdhani", sans-serif;
     font-weight: bold;
   }
-  .curriculum .edu, .proyect .edu {
+  .curriculum .edu, .proyect .edu, .contact .edu {
     display: flex;
     justify-content: start;
     margin-top: 50px;
   }
-  .curriculum .edu .btn-download, .proyect .edu .btn-download {
+  .curriculum .edu .btn-download, .proyect .edu .btn-download, .contact .edu .btn-download {
     background-color: blue;
     color: white;
     box-shadow: none;
@@ -395,19 +395,19 @@ footer .text-foo:hover {
     font-size: 20px;
     transition: all 1.5s;
   }
-  .curriculum .edu .subtitle-cv, .proyect .edu .subtitle-cv {
+  .curriculum .edu .subtitle-cv, .proyect .edu .subtitle-cv, .contact .edu .subtitle-cv {
     font-family: "Rajdhani", sans-serif;
     font-size: 35px;
     font-weight: bold;
     margin-left: 30%;
   }
-  .curriculum .edu .btn-download:hover, .proyect .edu .btn-download:hover {
+  .curriculum .edu .btn-download:hover, .proyect .edu .btn-download:hover, .contact .edu .btn-download:hover {
     background-color: white;
     color: rgb(0, 0, 0);
     opacity: 0.9;
     box-shadow: 0px 0px 15px black;
   }
-  .curriculum .cont-edu, .proyect .cont-edu {
+  .curriculum .cont-edu, .proyect .cont-edu, .contact .cont-edu {
     background-color: rgb(237, 237, 233);
     height: 250px;
     margin-left: 650px;
@@ -419,11 +419,11 @@ footer .text-foo:hover {
     align-items: center;
     flex-wrap: wrap;
   }
-  .curriculum .cont-edu .art-edu, .proyect .cont-edu .art-edu {
+  .curriculum .cont-edu .art-edu, .proyect .cont-edu .art-edu, .contact .cont-edu .art-edu {
     display: flex;
     justify-content: flex-start;
   }
-  .curriculum .cont-edu .art-edu .title-edu, .proyect .cont-edu .art-edu .title-edu {
+  .curriculum .cont-edu .art-edu .title-edu, .proyect .cont-edu .art-edu .title-edu, .contact .cont-edu .art-edu .title-edu {
     margin-left: 20px;
     margin-top: 15px;
     font-weight: bold;
@@ -433,18 +433,18 @@ footer .text-foo:hover {
     text-shadow: black 0px 1px 2px;
     font-family: "Rajdhani", sans-serif;
   }
-  .curriculum .cont-edu .art-edu .text-fecha, .proyect .cont-edu .art-edu .text-fecha {
+  .curriculum .cont-edu .art-edu .text-fecha, .proyect .cont-edu .art-edu .text-fecha, .contact .cont-edu .art-edu .text-fecha {
     font-size: 17px;
     font-family: "Josefin Slab", serif;
   }
-  .curriculum .cont-edu .art-edu .text-edu, .proyect .cont-edu .art-edu .text-edu {
+  .curriculum .cont-edu .art-edu .text-edu, .proyect .cont-edu .art-edu .text-edu, .contact .cont-edu .art-edu .text-edu {
     text-align: center;
     font-size: 15px;
     margin-left: 30px;
     padding-right: 10px;
     font-family: "Rajdhani", sans-serif;
   }
-  .curriculum .cont-edu .art-edu .text-edu_ef, .proyect .cont-edu .art-edu .text-edu_ef {
+  .curriculum .cont-edu .art-edu .text-edu_ef, .proyect .cont-edu .art-edu .text-edu_ef, .contact .cont-edu .art-edu .text-edu_ef {
     text-align: center;
     font-size: 15px;
     padding-left: 20px;
@@ -452,14 +452,14 @@ footer .text-foo:hover {
     padding-top: 30px;
     font-family: "Rajdhani", sans-serif;
   }
-  .curriculum .cont-edu .art-edu .text-exp, .proyect .cont-edu .art-edu .text-exp {
+  .curriculum .cont-edu .art-edu .text-exp, .proyect .cont-edu .art-edu .text-exp, .contact .cont-edu .art-edu .text-exp {
     text-align: center;
     padding-top: 30px;
     padding-right: 15px;
     margin-left: 30px;
     font-family: "Rajdhani", sans-serif;
   }
-  .curriculum .cont-apt, .proyect .cont-apt {
+  .curriculum .cont-apt, .proyect .cont-apt, .contact .cont-apt {
     background-color: rgb(237, 237, 233);
     height: 550px;
     margin-left: 450px;
@@ -468,33 +468,33 @@ footer .text-foo:hover {
     box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
     border-radius: 2px;
   }
-  .curriculum .cont-apt .apt, .proyect .cont-apt .apt {
+  .curriculum .cont-apt .apt, .proyect .cont-apt .apt, .contact .cont-apt .apt {
     padding: 50px;
   }
-  .curriculum .cont-apt .apt .apt-title, .proyect .cont-apt .apt .apt-title {
+  .curriculum .cont-apt .apt .apt-title, .proyect .cont-apt .apt .apt-title, .contact .cont-apt .apt .apt-title {
     font-family: "Roboto", sans-serif;
     font-size: 30px;
     font-weight: bold;
   }
-  .curriculum .cont-apt .apt .apt-list, .proyect .cont-apt .apt .apt-list {
+  .curriculum .cont-apt .apt .apt-list, .proyect .cont-apt .apt .apt-list, .contact .cont-apt .apt .apt-list {
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
     list-style-type: square;
   }
-  .curriculum .cont-apt .apt .apt-list .apt-li, .proyect .cont-apt .apt .apt-list .apt-li {
+  .curriculum .cont-apt .apt .apt-list .apt-li, .proyect .cont-apt .apt .apt-list .apt-li, .contact .cont-apt .apt .apt-list .apt-li {
     color: blue;
     font-size: 25px;
     margin-top: 30px;
   }
-  .curriculum .cont-apt .apt .apt-list .apt-list_item, .proyect .cont-apt .apt .apt-list .apt-list_item {
+  .curriculum .cont-apt .apt .apt-list .apt-list_item, .proyect .cont-apt .apt .apt-list .apt-list_item, .contact .cont-apt .apt .apt-list .apt-list_item {
     margin-right: 70px;
     color: black;
     font-size: 17px;
     font-family: "Josefin Slab", serif;
     font-weight: bold;
   }
-  .proyect .text-proy {
+  .proyect .text-proy, .contact .text-proy {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
     padding-top: 50px;
@@ -502,9 +502,9 @@ footer .text-foo:hover {
     font-size: 25px;
     margin-bottom: 60px;
   }
-  .proyect .cont-proy {
+  .proyect .cont-proy, .contact .cont-proy {
     background-color: rgb(237, 237, 233);
-    height: 550px;
+    height: 520px;
     margin-right: 400px;
     margin-left: 400px;
     box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
@@ -512,15 +512,15 @@ footer .text-foo:hover {
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
-  .proyect .cont-proy .img-proy {
+  .proyect .cont-proy .img-proy, .contact .cont-proy .img-proy {
     background-image: url(./imgcv/altreno.jpeg);
-    height: 550px;
+    height: 520px;
     width: 640px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .proyect .cont-proy .title-proy {
+  .proyect .cont-proy .title-proy, .contact .cont-proy .title-proy {
     font-size: 60px;
     font-weight: bold;
     color: blue;
@@ -528,17 +528,38 @@ footer .text-foo:hover {
     margin-top: 30px;
     margin-left: 55px;
   }
-  .proyect .cont-proy .subtitle-proy {
+  .proyect .cont-proy .subtitle-proy, .contact .cont-proy .subtitle-proy {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     margin-left: 55px;
     font-size: 35px;
   }
-  .proyect .cont-proy .text-proy_info {
+  .proyect .cont-proy .text-proy_info, .contact .cont-proy .text-proy_info {
     font-size: 35px;
     margin-left: 55px;
     font-family: "Josefin Slab", serif;
     margin-top: 50px;
     margin-right: 60px;
+  }
+  .proyect .cont-proy .btn-link, .contact .cont-proy .btn-link {
+    font-size: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: "Rajdhani", sans-serif;
+    background-color: blue;
+    color: white;
+    box-shadow: none;
+    text-decoration: none;
+    transition: all 1.5s;
+    border-radius: 50px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  .proyect .cont-proy .btn-link:hover, .contact .cont-proy .btn-link:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    opacity: 0.9;
+    border: 3px solid black;
   }
 }/*# sourceMappingURL=estilos.css.map */
