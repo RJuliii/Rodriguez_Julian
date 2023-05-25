@@ -504,7 +504,7 @@ footer .text-foo:hover {
   }
   .proyect .cont-proy, .contact .cont-proy {
     background-color: rgb(237, 237, 233);
-    height: 520px;
+    height: 500px;
     margin-right: 400px;
     margin-left: 400px;
     box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
@@ -514,7 +514,7 @@ footer .text-foo:hover {
   }
   .proyect .cont-proy .img-proy, .contact .cont-proy .img-proy {
     background-image: url(./imgcv/altreno.jpeg);
-    height: 520px;
+    height: 500px;
     width: 640px;
     background-position: top;
     background-repeat: no-repeat;
@@ -561,5 +561,88 @@ footer .text-foo:hover {
     color: rgb(0, 0, 0);
     opacity: 0.9;
     border: 3px solid black;
+  }
+  .contact .cont-form {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 800px;
+    margin-left: 600px;
+    margin-right: 600px;
+    width: 700px;
+    margin-top: 80px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    box-shadow: -40px 9px 88px -29px rgba(0, 0, 0, 0.49);
+    border: 1px solid rgb(237, 237, 233);
+  }
+  .contact .cont-form .input-s {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .contact .cont-form .input-s:focus {
+    outline: none;
+    font-weight: bold;
+    border-bottom: 3px solid #000000;
+  }
+  .contact .cont-form .input-l {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 505px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .contact .cont-form .input-l:focus {
+    outline: none;
+    font-weight: bold;
+    border-bottom: 3px solid #000000;
+  }
+  .contact .cont-form .input-txt {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 505px;
+    text-align: start;
+    margin-top: 80px;
+    resize: none;
+  }
+  .contact .cont-form .input-txt:focus {
+    outline: none;
+    font-weight: bold;
+    color: blue;
+    border-bottom: 3px solid blue;
+  }
+  .contact .cont-form #btn-send {
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    background-color: blue;
+    color: white;
+    margin-top: 55px;
+    width: 150px;
+    border: none;
+    text-decoration: none;
+    transition: all 1.5s;
+    border-radius: 20px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0s;
+  }
+  .contact .cont-form #btn-send:active {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
   }
 }/*# sourceMappingURL=estilos.css.map */

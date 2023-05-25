@@ -46,14 +46,12 @@
             <h3 class="title-cv">CONTACTO</h3>
             <div class="cont-form">
                 <form action="enviar.php" method="post">
-                    <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
-                    <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
-                    <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
-                    <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
-                    <div class="clear"></div>
-                    <div class="col-md-8">
-                        <button type="submit" class="btn btn-primary">ENVIAR </button>
-                    </div>
+                    <input type="text" name="nombre" placeholder="Nombre" class="input-s" required>
+                    <input type="text" name="apellido" placeholder="Apellido" class="input-s" required> <br>
+                    <input type="text" name="correo" placeholder="Correo" class="input-l" required> <br>
+                    <input type="text" name="telefono" placeholder="Teléfono" class="input-l" required> <br>
+                    <textarea name="mensaje" rows="6" placeholder="Escriba aqui su mensaje" class="input-txt" required></textarea> <br>
+                    <input type="submit" value="enviar" id="btn-send">
                 </form>
             </div>
 
