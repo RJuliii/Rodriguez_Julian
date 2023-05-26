@@ -59,7 +59,7 @@ header{
     background: rgb(245,235,224);
     background: linear-gradient(180deg, rgba(245,235,224,1) 15%, rgba(227,213,202,1) 50%, rgba(213,189,175,1) 50%, rgba(184,144,120,1) 85%);
     height: 600px;
-    padding: 20px;
+    padding: 5%;
     padding-top: 90px;
     margin-top: 50px;
     .conteiner{
@@ -68,15 +68,15 @@ header{
         background-color: $color3;   
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.637);
         border-radius: 1%;
-        padding-top: 20px;
+        padding-top: 5%;
         .cont-cv{
             background-image: url(./imgcv/bkg1.png);
             height: 180px;
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
-            margin-left: 50px;
-            margin-right: 50px;
+            margin-left: 20%;
+            margin-right: 20%;
             background-color: rgb(214, 204, 194);
             border-radius: 100%;
         }
@@ -91,42 +91,50 @@ header{
         .boton{
             display: block;
             text-align: center;
-            margin: 10px;
-            margin-top: 30px;
+            margin: 5%;
+            margin-top: 15%;
             .btn-cv{
                 border-radius: 20px;
-                background-color: $color5;
-                color: black;
-                box-shadow: 0px 0px 5px 0px black;
+                background-color: blue;
+                color: white;
                 border: none;
-                padding: 5px;
-                margin-right: 10px;
-                box-shadow: 0px 0px 15px 0px black;
+                padding: 7px;
+                margin-right: 5%;
                 font-family: $font1;
                 font-weight: bold;
                 text-decoration: none;
+                font-size: 20px;
+                transition: all (1s);
             }
             .btn-proy{
                 border-radius: 20px;
-                background-color: $color5;
-                color: rgb(255, 255, 255);
-                box-shadow: 0px 0px 5px 0px black;
-                border: none;
-                padding-top: 5px;
-                padding-bottom: 5px;
-                padding-left: 15px;
-                padding-right: 15px;
+                background-color: white;
+                color: black;
+                border: 1px solid black;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 12px;
+                padding-right: 12px;
                 text-align: center;
-                box-shadow: 0px 0px 15px 0px black;
                 font-family: $font1;
                 font-weight: bold;
                 text-decoration: none;
+                font-size: 20px;
+                transition: all (1s);
             }
             .btn-cv:hover{
-                color: white;
+                color: black;
+                background-color: white;
+                border: 1px solid black;
+                padding-top: 6px;
+                padding-bottom: 6px;
             }
             .btn-proy:hover{
-                color: black;
+                color: white;
+                background-color: blue;
+                border: none;
+                padding-top: 7px;
+                padding-bottom: 7px;
             }
         }
         .menu-cv{
@@ -168,6 +176,7 @@ header{
 .sec2{
     background-color: $color4;
     height: 100%;
+    margin-top: -5px;
     .title-cv2{
         font-family: $font1;
         font-weight: bold;
@@ -179,10 +188,7 @@ header{
     .text-sec2{
         font-family: $font2;
         font-size: 20px;
-        padding-top: 15px;
-        padding-left: 15px;
-        padding-right : 15px;
-        padding-bottom : 15px;
+        padding: 5%;
         margin-bottom: 0px;
         font-weight: bold;
     }
@@ -190,18 +196,19 @@ header{
 footer{
     height: 100%;
     background-color: $color3;
-    border: 1px solid black;
+    border-bottom: 0.5px solid black;
     flex-wrap: wrap;
     .title-foo{
-        font-family: $font3;
+        font-family: $font1;
         margin: 0px;
+        font-weight: bold;
         text-align: center;
         font-size: 25px;
-        text-shadow: rgb(81, 81, 81) 0px 2px 5px;
     }
     .text-foo{
         font-family: $font1;
         font-size: 20px;
+        font-weight: 500;
         color: black;
         display: flex;
         justify-content: center;
@@ -210,11 +217,360 @@ footer{
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .text-foo:hover{
         color: $color4;
     }
+}
+// CV
+
+.curriculum{
+    background-color: $color1;
+    height: 100%vh;
+    padding-bottom: 35%;
+    .title-cv{
+        color: black;
+        font-size: 40px;
+        padding-top: 40%;
+        text-align: center;
+        font-family: $font1;
+        font-weight: bold;
+    }
+    .edu{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        .subtitle-cv{
+            font-family: $font1;
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 5%;
+        }
+        .btn-download{
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 7px;
+            margin-right: 5%;
+            font-family: $font1;
+            text-decoration: none;
+            font-size: 20px;
+            transition: all (1s);
+            margin-left: 5%;
+        }
+        .btn-download:hover{
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+    }
+    .cont-edu{
+        background-color: $color2;
+        height: 350px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        box-shadow: -16px 10px 45px -19px rgba(0,0,0,0.75);
+        border-radius: 2px;
+        .art-edu{
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            .title-edu{
+                padding-left: 10%;
+                padding-top: 5%;
+                padding-right: 5%;
+                font-weight: bold;
+                color: blue;
+                font-size: 25px;
+                text-shadow: black 0px 1px 2px;
+                font-family: $font1;
+            }
+            .text-fecha{
+                font-size: 17px;
+                font-family: $font2 ;
+            }
+            .text-edu{
+                font-size: 15px;
+                margin-left: 5%;
+                padding-right: 5%;
+                font-family: $font1;
+                padding-left: 5%;
+            }
+            .text-edu_ef{
+                font-size: 15px;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 5%;
+                margin-left: 5%;
+                font-family: $font1;
+            }
+            .text-exp{
+                font-size: 15px;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 5%;
+                margin-left: 5%;
+                font-family: $font1;
+            }
+        }
+    }
+    .cont-apt{
+        background-color: $color2;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 35%;
+        box-shadow: -16px 10px 45px -19px rgba(0,0,0,0.75);
+        border-radius: 2px;
+        .apt{
+            padding-left: 10%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+            .apt-title{
+                font-family: $font1;
+                font-size: 30px;
+                font-weight: bold;
+                padding-top: 5%;
+            }
+            .apt-list{
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                list-style-type: square;
+                .apt-li{
+                    color: blue;
+                    font-size: 25px;
+                    margin-left: 5%;
+                }
+                .apt-list_item{
+                    color: black;
+                    font-size: 17px;
+                    font-family: $font2;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+// PROYECTOS
+.proyect{
+    @extend .curriculum;
+    .text-proy{
+        text-align: center;
+        font-family: $font1;
+        padding-top: 50px;
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 60px;
+    }
+    .cont-proy{
+        background-color: $color2;
+        height: 500px;
+        margin-right: 400px;
+        margin-left: 400px;
+        box-shadow: -16px 10px 45px -19px rgba(0,0,0,0.75);
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        .img-proy{   
+            background-image: url(./imgcv/altreno.jpeg);
+            height: 500px;
+            width: 750px;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .title-proy{
+            font-size: 60px;
+            font-weight: bold;
+            color: blue;
+            font-family: $font1;
+            margin-top: 30px;
+            margin-left: 55px;
+        }
+        .subtitle-proy{
+            font-family: $font3;
+            font-weight: bold;
+            margin-left: 55px;
+            font-size: 35px;
+        }
+        .text-proy_info{
+            font-size: 35px;
+            margin-left: 55px;
+            font-family: $font2;
+            margin-top: 50px;
+            margin-right: 60px;
+        }
+        .btn-link{
+            font-size: 30px;
+            margin-left: 250px;
+            margin-right: 250px;
+            font-family:$font1 ;
+            background-color: blue;
+            color: white;
+            box-shadow: none;
+            text-decoration: none;
+            transition: all (1.5s);
+            border-radius: 50px;
+            padding: 10px;
+            display: block;
+            text-align: center;
+        }
+        .btn-link:hover{
+            background-color: white;
+            color: rgb(0, 0, 0);
+            opacity: 0.9;
+            border: 3px solid black;
+        }
+    }
+}
+// CONTACTO
+.contact{
+    @extend .proyect;
+    .cont-form{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        height: 800px;
+        margin-left: 600px;
+        margin-right: 600px;
+        width: 700px;
+        margin-top: 80px;
+        font-family: $font1;
+        font-size: 20px;
+        padding-top: 50px;
+        text-align: center;
+        box-shadow: -40px 9px 88px -29px rgba(0,0,0,0.49);
+        border: 1px solid $color2;
+        .input-s{
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            border: none;
+            border-bottom: 2px solid #000000;
+            width: 250px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .input-s:focus{
+            outline: none;
+            font-weight: bold;
+            border-bottom: 3px solid #000000;
+        }
+        .input-l{
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            border: none;
+            border-bottom: 2px solid #000000;
+            width: 505px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .input-l:focus{
+            outline: none;
+            font-weight: bold;
+            border-bottom: 3px solid #000000;
+        }
+        .input-txt{
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            border: none;
+            border-bottom: 2px solid #000000;
+            width: 505px;
+            text-align: start;
+            margin-top: 80px;
+            resize: none;
+        }
+        .input-txt:focus{
+            outline: none;
+            font-weight: bold;
+            color: blue;
+            border-bottom: 3px solid blue;
+        }
+        #btn-send{
+            font-size: 20px;
+            font-family:$font1;
+            background-color: blue;
+            color: white;
+            margin-top: 55px;
+            width: 150px;
+            border: none;
+            text-decoration: none;
+            transition: all (1.5s);
+            border-radius: 20px;
+            padding: 5px;
+            display: block;
+            text-align: center;
+            text-transform:uppercase;
+            transition: all 0s;
+        }
+        #btn-send:active{
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            font-weight: bold;
+        }
+    }
+}
+// GRACIAS
+.sec3{
+    background-color: $color1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    .thx{
+        .title-thx{
+            font-family: $font1;
+            font-size: 55px;
+            font-weight: bold;
+            text-shadow: 0px 1px 2px rgb(15, 8, 8);
+        }
+        #subtitle-thx{
+            font-family: $font1;
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+        #blurButton{
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: $font3;
+            background-color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 25px;
+            padding-left: 25px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all (0.5s);
+            .fa-house{
+                color: blue;
+            }
+        }
+        #blurButton:hover{
+            background-color: blue;
+            color: white;
+            .fa-house{
+                color: black;
+            }
+        }
+    }
+}
+.blur {
+    filter: blur(5px);
+}
+
+
+@media only screen and (min-width:720px) and (max-width:1024px){
+
 }
 
 @media only screen and (min-width:1890px) and (max-width:1920px){

@@ -47,7 +47,7 @@ header .navbar .navbar-nav .nav-link:hover {
   background: rgb(245, 235, 224);
   background: linear-gradient(180deg, rgb(245, 235, 224) 15%, rgb(227, 213, 202) 50%, rgb(213, 189, 175) 50%, rgb(184, 144, 120) 85%);
   height: 600px;
-  padding: 20px;
+  padding: 5%;
   padding-top: 90px;
   margin-top: 50px;
 }
@@ -57,7 +57,7 @@ header .navbar .navbar-nav .nav-link:hover {
   background-color: rgb(245, 235, 224);
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.637);
   border-radius: 1%;
-  padding-top: 20px;
+  padding-top: 5%;
 }
 .sec1 .conteiner .cont-cv {
   background-image: url(./imgcv/bkg1.png);
@@ -65,8 +65,8 @@ header .navbar .navbar-nav .nav-link:hover {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
   background-color: rgb(214, 204, 194);
   border-radius: 100%;
 }
@@ -81,43 +81,51 @@ header .navbar .navbar-nav .nav-link:hover {
 .sec1 .conteiner .boton {
   display: block;
   text-align: center;
-  margin: 10px;
-  margin-top: 30px;
+  margin: 5%;
+  margin-top: 15%;
 }
 .sec1 .conteiner .boton .btn-cv {
   border-radius: 20px;
-  background-color: #D9C3B6;
-  color: black;
-  box-shadow: 0px 0px 5px 0px black;
+  background-color: blue;
+  color: white;
   border: none;
-  padding: 5px;
-  margin-right: 10px;
-  box-shadow: 0px 0px 15px 0px black;
+  padding: 7px;
+  margin-right: 5%;
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   text-decoration: none;
+  font-size: 20px;
+  transition: all 1s;
 }
 .sec1 .conteiner .boton .btn-proy {
   border-radius: 20px;
-  background-color: #D9C3B6;
-  color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 5px 0px black;
-  border: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
   text-align: center;
-  box-shadow: 0px 0px 15px 0px black;
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   text-decoration: none;
+  font-size: 20px;
+  transition: all 1s;
 }
 .sec1 .conteiner .boton .btn-cv:hover {
-  color: white;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .sec1 .conteiner .boton .btn-proy:hover {
-  color: black;
+  color: white;
+  background-color: blue;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .sec1 .conteiner .menu-cv {
   margin-top: 30px;
@@ -157,6 +165,7 @@ header .navbar .navbar-nav .nav-link:hover {
 .sec2 {
   background-color: #b89078;
   height: 100%;
+  margin-top: -5px;
 }
 .sec2 .title-cv2 {
   font-family: "Rajdhani", sans-serif;
@@ -169,10 +178,7 @@ header .navbar .navbar-nav .nav-link:hover {
 .sec2 .text-sec2 {
   font-family: "Josefin Slab", serif;
   font-size: 20px;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
+  padding: 5%;
   margin-bottom: 0px;
   font-weight: bold;
 }
@@ -180,19 +186,20 @@ header .navbar .navbar-nav .nav-link:hover {
 footer {
   height: 100%;
   background-color: rgb(245, 235, 224);
-  border: 1px solid black;
+  border-bottom: 0.5px solid black;
   flex-wrap: wrap;
 }
 footer .title-foo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rajdhani", sans-serif;
   margin: 0px;
+  font-weight: bold;
   text-align: center;
   font-size: 25px;
-  text-shadow: rgb(81, 81, 81) 0px 2px 5px;
 }
 footer .text-foo {
   font-family: "Rajdhani", sans-serif;
   font-size: 20px;
+  font-weight: 500;
   color: black;
   display: flex;
   justify-content: center;
@@ -201,10 +208,346 @@ footer .priv-foo {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 15px;
 }
 footer .text-foo:hover {
   color: #b89078;
+}
+
+.curriculum, .proyect, .contact {
+  background-color: rgb(214, 204, 194);
+  height: 100% vh;
+  padding-bottom: 35%;
+}
+.curriculum .title-cv, .proyect .title-cv, .contact .title-cv {
+  color: black;
+  font-size: 40px;
+  padding-top: 40%;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+.curriculum .edu, .proyect .edu, .contact .edu {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.curriculum .edu .subtitle-cv, .proyect .edu .subtitle-cv, .contact .edu .subtitle-cv {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.curriculum .edu .btn-download, .proyect .edu .btn-download, .contact .edu .btn-download {
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 7px;
+  margin-right: 5%;
+  font-family: "Rajdhani", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 1s;
+  margin-left: 5%;
+}
+.curriculum .edu .btn-download:hover, .proyect .edu .btn-download:hover, .contact .edu .btn-download:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.curriculum .cont-edu, .proyect .cont-edu, .contact .cont-edu {
+  background-color: rgb(237, 237, 233);
+  height: 350px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+  border-radius: 2px;
+}
+.curriculum .cont-edu .art-edu, .proyect .cont-edu .art-edu, .contact .cont-edu .art-edu {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.curriculum .cont-edu .art-edu .title-edu, .proyect .cont-edu .art-edu .title-edu, .contact .cont-edu .art-edu .title-edu {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+  color: blue;
+  font-size: 25px;
+  text-shadow: black 0px 1px 2px;
+  font-family: "Rajdhani", sans-serif;
+}
+.curriculum .cont-edu .art-edu .text-fecha, .proyect .cont-edu .art-edu .text-fecha, .contact .cont-edu .art-edu .text-fecha {
+  font-size: 17px;
+  font-family: "Josefin Slab", serif;
+}
+.curriculum .cont-edu .art-edu .text-edu, .proyect .cont-edu .art-edu .text-edu, .contact .cont-edu .art-edu .text-edu {
+  font-size: 15px;
+  margin-left: 5%;
+  padding-right: 5%;
+  font-family: "Rajdhani", sans-serif;
+  padding-left: 5%;
+}
+.curriculum .cont-edu .art-edu .text-edu_ef, .proyect .cont-edu .art-edu .text-edu_ef, .contact .cont-edu .art-edu .text-edu_ef {
+  font-size: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  margin-left: 5%;
+  font-family: "Rajdhani", sans-serif;
+}
+.curriculum .cont-edu .art-edu .text-exp, .proyect .cont-edu .art-edu .text-exp, .contact .cont-edu .art-edu .text-exp {
+  font-size: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  margin-left: 5%;
+  font-family: "Rajdhani", sans-serif;
+}
+.curriculum .cont-apt, .proyect .cont-apt, .contact .cont-apt {
+  background-color: rgb(237, 237, 233);
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 35%;
+  box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+  border-radius: 2px;
+}
+.curriculum .cont-apt .apt, .proyect .cont-apt .apt, .contact .cont-apt .apt {
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.curriculum .cont-apt .apt .apt-title, .proyect .cont-apt .apt .apt-title, .contact .cont-apt .apt .apt-title {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 5%;
+}
+.curriculum .cont-apt .apt .apt-list, .proyect .cont-apt .apt .apt-list, .contact .cont-apt .apt .apt-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: square;
+}
+.curriculum .cont-apt .apt .apt-list .apt-li, .proyect .cont-apt .apt .apt-list .apt-li, .contact .cont-apt .apt .apt-list .apt-li {
+  color: blue;
+  font-size: 25px;
+  margin-left: 5%;
+}
+.curriculum .cont-apt .apt .apt-list .apt-list_item, .proyect .cont-apt .apt .apt-list .apt-list_item, .contact .cont-apt .apt .apt-list .apt-list_item {
+  color: black;
+  font-size: 17px;
+  font-family: "Josefin Slab", serif;
+  font-weight: bold;
+}
+
+.proyect .text-proy, .contact .text-proy {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  padding-top: 50px;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+.proyect .cont-proy, .contact .cont-proy {
+  background-color: rgb(237, 237, 233);
+  height: 500px;
+  margin-right: 400px;
+  margin-left: 400px;
+  box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.proyect .cont-proy .img-proy, .contact .cont-proy .img-proy {
+  background-image: url(./imgcv/altreno.jpeg);
+  height: 500px;
+  width: 750px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proyect .cont-proy .title-proy, .contact .cont-proy .title-proy {
+  font-size: 60px;
+  font-weight: bold;
+  color: blue;
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 30px;
+  margin-left: 55px;
+}
+.proyect .cont-proy .subtitle-proy, .contact .cont-proy .subtitle-proy {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-left: 55px;
+  font-size: 35px;
+}
+.proyect .cont-proy .text-proy_info, .contact .cont-proy .text-proy_info {
+  font-size: 35px;
+  margin-left: 55px;
+  font-family: "Josefin Slab", serif;
+  margin-top: 50px;
+  margin-right: 60px;
+}
+.proyect .cont-proy .btn-link, .contact .cont-proy .btn-link {
+  font-size: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: "Rajdhani", sans-serif;
+  background-color: blue;
+  color: white;
+  box-shadow: none;
+  text-decoration: none;
+  transition: all 1.5s;
+  border-radius: 50px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.proyect .cont-proy .btn-link:hover, .contact .cont-proy .btn-link:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+  border: 3px solid black;
+}
+
+.contact .cont-form {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 800px;
+  margin-left: 600px;
+  margin-right: 600px;
+  width: 700px;
+  margin-top: 80px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
+  padding-top: 50px;
+  text-align: center;
+  box-shadow: -40px 9px 88px -29px rgba(0, 0, 0, 0.49);
+  border: 1px solid rgb(237, 237, 233);
+}
+.contact .cont-form .input-s {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #000000;
+  width: 250px;
+  text-align: center;
+  margin-top: 50px;
+}
+.contact .cont-form .input-s:focus {
+  outline: none;
+  font-weight: bold;
+  border-bottom: 3px solid #000000;
+}
+.contact .cont-form .input-l {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #000000;
+  width: 505px;
+  text-align: center;
+  margin-top: 80px;
+}
+.contact .cont-form .input-l:focus {
+  outline: none;
+  font-weight: bold;
+  border-bottom: 3px solid #000000;
+}
+.contact .cont-form .input-txt {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #000000;
+  width: 505px;
+  text-align: start;
+  margin-top: 80px;
+  resize: none;
+}
+.contact .cont-form .input-txt:focus {
+  outline: none;
+  font-weight: bold;
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+.contact .cont-form #btn-send {
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  background-color: blue;
+  color: white;
+  margin-top: 55px;
+  width: 150px;
+  border: none;
+  text-decoration: none;
+  transition: all 1.5s;
+  border-radius: 20px;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0s;
+}
+.contact .cont-form #btn-send:active {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.sec3 {
+  background-color: rgb(214, 204, 194);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+.sec3 .thx .title-thx {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: 0px 1px 2px rgb(15, 8, 8);
+}
+.sec3 .thx #subtitle-thx {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.sec3 .thx #blurButton {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.sec3 .thx #blurButton .fa-house {
+  color: blue;
+}
+.sec3 .thx #blurButton:hover {
+  background-color: blue;
+  color: white;
+}
+.sec3 .thx #blurButton:hover .fa-house {
+  color: black;
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 @media only screen and (min-width: 1890px) and (max-width: 1920px) {
