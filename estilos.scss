@@ -217,7 +217,8 @@ footer{
     }
 }
 
-@media only screen and (min-width:1890px) and (max-width:4000px){
+@media only screen and (min-width:1890px) and (max-width:1920px){
+    // HEADER
     header{
         .navbar{
             background-color: white;
@@ -237,11 +238,12 @@ footer{
                 display: flex;
                 justify-content: end;
                 .nav-link:hover{
-                    color: $color4;
+                    color: blue;
                 }
             }
         }   
     }
+    // INDEX
     .sec1{
         background: rgb(255,255,255);
         background: linear-gradient(270deg, rgba(255,255,255,1) 47%, $color1 47%);
@@ -320,6 +322,7 @@ footer{
             }
         }
     }
+    // SOBRE MI
     .sec2{
         position: absolute;
         left:59%;
@@ -340,6 +343,7 @@ footer{
             margin-bottom: 0px;
         }
     }
+    // FOOTER
     footer{
         height: 100%;
         background-color: white;
@@ -376,6 +380,7 @@ footer{
             }
         }
     }
+    // CURRICULUM
     .curriculum{
         background-color: $color1;
         height: 100%;
@@ -481,7 +486,7 @@ footer{
             .apt{
                 padding: 50px;
                 .apt-title{
-                    font-family: $font3;
+                    font-family: $font1;
                     font-size: 30px;
                     font-weight: bold;
                 }
@@ -506,6 +511,7 @@ footer{
             }
         }
     }
+    // PROYECTOS
     .proyect{
         @extend .curriculum;
         .text-proy{
@@ -528,7 +534,7 @@ footer{
             .img-proy{   
                 background-image: url(./imgcv/altreno.jpeg);
                 height: 500px;
-                width: 640px;
+                width: 750px;
                 background-position: top;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -577,6 +583,7 @@ footer{
             }
         }
     }
+    // CONTACTO
     .contact{
         @extend .proyect;
         .cont-form{
@@ -662,6 +669,57 @@ footer{
                 font-weight: bold;
             }
         }
+    }
+    // GRACIAS
+    .sec3{
+        background-color: $color1;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: nowrap;
+        .thx{
+            .title-thx{
+                font-family: $font1;
+                font-size: 55px;
+                font-weight: bold;
+                text-shadow: 0px 1px 2px rgb(15, 8, 8);
+            }
+            #subtitle-thx{
+                font-family: $font1;
+                font-size: 35px;
+                margin-bottom: 40px;
+            }
+            #blurButton{
+                color: black;
+                text-decoration: none;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: $font3;
+                background-color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 25px;
+                padding-left: 25px;
+                border-radius: 30px;
+                cursor: pointer;
+                transition: all (0.5s);
+                .fa-house{
+                    color: blue;
+                }
+            }
+            #blurButton:hover{
+                background-color: blue;
+                color: white;
+                .fa-house{
+                    color: black;
+                }
+            }
+        }
+    }
+    .blur {
+        filter: blur(5px);
     }
 }
 
