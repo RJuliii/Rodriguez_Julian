@@ -897,37 +897,40 @@ footer .text-foo:hover {
   }
   .proyect .cont-proy .img-proy, .contact .cont-proy .img-proy {
     background-image: url(./imgcv/altreno.jpeg);
-    height: 500px;
-    width: 750px;
-    background-position: top;
+    height: 450px;
+    width: 400px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .proyect .cont-proy .title-proy, .contact .cont-proy .title-proy {
+  .proyect .cont-proy .proy .title-proy, .contact .cont-proy .proy .title-proy {
     font-size: 60px;
     font-weight: bold;
     color: blue;
     font-family: "Rajdhani", sans-serif;
     margin-top: 30px;
     margin-left: 55px;
+    text-align: left;
   }
-  .proyect .cont-proy .subtitle-proy, .contact .cont-proy .subtitle-proy {
+  .proyect .cont-proy .proy .subtitle-proy, .contact .cont-proy .proy .subtitle-proy {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     margin-left: 55px;
-    font-size: 35px;
+    font-size: 25px;
+    text-align: left;
   }
-  .proyect .cont-proy .text-proy_info, .contact .cont-proy .text-proy_info {
-    font-size: 35px;
+  .proyect .cont-proy .proy .text-proy_info, .contact .cont-proy .proy .text-proy_info {
+    font-size: 30px;
     margin-left: 55px;
     font-family: "Josefin Slab", serif;
     margin-top: 50px;
-    margin-right: 60px;
+    margin-right: 50px;
+    text-align: left;
   }
-  .proyect .cont-proy .btn-link, .contact .cont-proy .btn-link {
+  .proyect .cont-proy .proy .btn-link, .contact .cont-proy .proy .btn-link {
     font-size: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
     font-family: "Rajdhani", sans-serif;
     background-color: blue;
     color: white;
@@ -939,7 +942,7 @@ footer .text-foo:hover {
     display: block;
     text-align: center;
   }
-  .proyect .cont-proy .btn-link:hover, .contact .cont-proy .btn-link:hover {
+  .proyect .cont-proy .proy .btn-link:hover, .contact .cont-proy .proy .btn-link:hover {
     background-color: white;
     color: rgb(0, 0, 0);
     opacity: 0.9;
