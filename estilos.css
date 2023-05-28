@@ -391,11 +391,11 @@ footer .text-foo:hover {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-left: 5px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 .proyect .cont-proy .proy .text-proy_info, .contact .cont-proy .proy .text-proy_info {
-  font-size: 15px;
+  font-size: 20px;
   margin-left: 15px;
   font-family: "Josefin Slab", serif;
   margin-top: 15px;
@@ -495,11 +495,10 @@ footer .text-foo:hover {
   transition: all 1.5s;
   border-radius: 20px;
   padding: 5px;
-  display: block;
+  display: inline-block;
   text-align: center;
   text-transform: uppercase;
   transition: all 0s;
-  margin-left: 25px;
 }
 .contact .cont-form #btn-send:active {
   background-color: white;
@@ -562,6 +561,96 @@ footer .text-foo:hover {
   filter: blur(5px);
 }
 
+@media only screen and (min-width: 420px) and (max-width: 539px) {
+  header .navbar .nav-text {
+    font-size: 20px;
+  }
+  .sec1 .conteiner {
+    height: 480px;
+  }
+  .sec1 .conteiner .cont-cv {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .sec1 .conteiner .boton .btn-cv {
+    font-size: 25px;
+  }
+  .sec1 .conteiner .boton .btn-proy {
+    font-size: 25px;
+  }
+  .curriculum .edu .btn-download, .proyect .edu .btn-download, .contact .edu .btn-download {
+    margin-left: 20%;
+  }
+  .curriculum .edu .btn-download:hover, .proyect .edu .btn-download:hover, .contact .edu .btn-download:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .proyect .cont-proy, .contact .cont-proy {
+    height: 800px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+  }
+  .proyect .cont-proy .img-proy, .contact .cont-proy .img-proy {
+    height: 500px;
+    width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .blur {
+    filter: blur(5px);
+  }
+}
+@media only screen and (min-width: 539px) and (max-width: 760px) {
+  header .navbar .nav-text {
+    font-size: 20px;
+  }
+  .sec1 {
+    height: 700px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .sec1 .conteiner {
+    height: 525px;
+  }
+  .sec1 .conteiner .cont-cv {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+  .sec1 .conteiner .title-cv1 {
+    font-size: 35px;
+  }
+  .sec1 .conteiner .boton .btn-cv {
+    font-size: 25px;
+  }
+  .sec1 .conteiner .boton .btn-proy {
+    font-size: 25px;
+  }
+  .curriculum .title-cv, .proyect .title-cv, .contact .title-cv {
+    padding-top: 25%;
+  }
+  .curriculum .edu .btn-download, .proyect .edu .btn-download, .contact .edu .btn-download {
+    margin-left: 35%;
+  }
+  .proyect .cont-proy, .contact .cont-proy {
+    height: 800px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+  }
+  .proyect .cont-proy .img-proy, .contact .cont-proy .img-proy {
+    height: 500px;
+    width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .blur {
+    filter: blur(5px);
+  }
+}
 @media only screen and (min-width: 1890px) and (max-width: 1920px) {
   header .navbar {
     background-color: white;

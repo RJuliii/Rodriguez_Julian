@@ -404,11 +404,11 @@ footer{
                 font-family: $font3;
                 font-weight: bold;
                 margin-left: 5px;
-                font-size: 20px;
+                font-size: 15px;
                 text-align: center;
             }
             .text-proy_info{
-                font-size: 15px;
+                font-size: 20px;
                 margin-left: 15px;
                 font-family: $font2;
                 margin-top: 15px;
@@ -512,11 +512,10 @@ footer{
             transition: all (1.5s);
             border-radius: 20px;
             padding: 5px;
-            display: block;
+            display: inline-block;
             text-align: center;
             text-transform:uppercase;
             transition: all 0s;
-            margin-left: 25px;
         }
         #btn-send:active{
             background-color: white;
@@ -583,8 +582,128 @@ footer{
 }
 
 
-@media only screen and (min-width:720px) and (max-width:1024px){
+@media only screen and (min-width:420px) and (max-width:539px){
+    header{
+        .navbar{
+            .nav-text{
+                font-size: 20px;
+            }
+        }   
+    }
+    .sec1{
+        .conteiner{
+            height: 480px;
+            .cont-cv{
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+            .boton{
+                .btn-cv{
+                    font-size: 25px;
+                }
+                .btn-proy{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    // CV
+    
+    .curriculum{
+        .edu{
+            .btn-download{
+                margin-left: 20%;
+            }
+            .btn-download:hover{
+                color: black;
+                background-color: white;
+                border: 1px solid black;
+                padding-top: 6px;
+                padding-bottom: 6px;
+            }
+        }
+    }
+    // PROYECTOS
+    .proyect{
+        .cont-proy{
+            height:800px;
+            margin-right: 10px;
+            margin-left: 10px;
+            box-shadow: -16px 10px 45px -19px rgba(0,0,0,0.75);
+            .img-proy{   
+                height: 500px;
+                width: 500px;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+        }
+    }
+    .blur {
+        filter: blur(5px);
+    }
+}
 
+@media only screen and (min-width:539px) and (max-width:760px){
+    header{
+        .navbar{
+            .nav-text{
+                font-size: 20px;
+            }
+        }   
+    }
+    .sec1{
+        height: 700px;
+        padding-left: 60px;
+        padding-right: 60px;
+        .conteiner{
+            height: 525px;
+            .cont-cv{
+                margin-left: 32%;
+                margin-right: 32%;
+            }
+            .title-cv1{
+                font-size: 35px;
+            }
+            .boton{
+                .btn-cv{
+                    font-size: 25px;
+                }
+                .btn-proy{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    // CV
+    
+    .curriculum{
+        .title-cv{
+            padding-top: 25%;
+        }
+        .edu{
+            .btn-download{
+                margin-left: 35%;
+            }
+        }
+    }
+    // PROYECTOS
+    .proyect{
+        .cont-proy{
+            height:800px;
+            margin-right: 10px;
+            margin-left: 10px;
+            box-shadow: -16px 10px 45px -19px rgba(0,0,0,0.75);
+            .img-proy{   
+                height: 500px;
+                width: 500px;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+        }
+    }
+    .blur {
+        filter: blur(5px);
+    }
 }
 
 @media only screen and (min-width:1890px) and (max-width:1920px){
