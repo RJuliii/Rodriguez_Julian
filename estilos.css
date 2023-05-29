@@ -569,7 +569,7 @@ footer .text-foo:hover {
   filter: blur(5px);
 }
 
-@media only screen and (min-width: 420px) and (max-width: 539px) {
+@media only screen and (min-width: 420px) and (max-width: 538px) {
   header .navbar .nav-text {
     font-size: 20px;
   }
@@ -627,7 +627,7 @@ footer .text-foo:hover {
     filter: blur(5px);
   }
 }
-@media only screen and (min-width: 539px) and (max-width: 760px) {
+@media only screen and (min-width: 539px) and (max-width: 759px) {
   header .navbar .nav-text {
     font-size: 20px;
   }
@@ -857,7 +857,7 @@ footer .text-foo:hover {
     filter: blur(5px);
   }
 }
-@media only screen and (min-width: 1022px) and (max-width: 1280px) {
+@media only screen and (min-width: 1022px) and (max-width: 1279px) {
   header .navbar {
     background-color: white;
     box-shadow: none;
@@ -1088,8 +1088,8 @@ footer .text-foo:hover {
   .curriculum .cont-edu, .proyect .cont-edu, .contact .cont-edu {
     background-color: rgb(237, 237, 233);
     height: 250px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 50px;
     box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
     border-radius: 2px;
@@ -1403,7 +1403,7 @@ footer .text-foo:hover {
     filter: blur(5px);
   }
 }
-@media only screen and (min-width: 1280px) and (max-width: 1700px) {
+@media only screen and (min-width: 1280px) and (max-width: 1750px) {
   header .navbar {
     background-color: white;
     box-shadow: none;
@@ -1635,8 +1635,8 @@ footer .text-foo:hover {
   .curriculum .cont-edu, .proyect .cont-edu, .contact .cont-edu {
     background-color: rgb(237, 237, 233);
     height: 350px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 50px;
     box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
     border-radius: 2px;
@@ -1653,17 +1653,17 @@ footer .text-foo:hover {
     padding-bottom: 10%;
     font-weight: bold;
     color: blue;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: black 0px 1px 2px;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
   }
   .curriculum .cont-edu .art-edu .text-fecha, .proyect .cont-edu .art-edu .text-fecha, .contact .cont-edu .art-edu .text-fecha {
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Josefin Slab", serif;
   }
   .curriculum .cont-edu .art-edu .text-edu, .proyect .cont-edu .art-edu .text-edu, .contact .cont-edu .art-edu .text-edu {
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 5%;
     padding-right: 5%;
     font-family: "Rajdhani", sans-serif;
@@ -1672,7 +1672,7 @@ footer .text-foo:hover {
     text-align: center;
   }
   .curriculum .cont-edu .art-edu .text-edu_ef, .proyect .cont-edu .art-edu .text-edu_ef, .contact .cont-edu .art-edu .text-edu_ef {
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10%;
@@ -1681,7 +1681,7 @@ footer .text-foo:hover {
     text-align: center;
   }
   .curriculum .cont-edu .art-edu .text-exp, .proyect .cont-edu .art-edu .text-exp, .contact .cont-edu .art-edu .text-exp {
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 8%;
@@ -1767,7 +1767,7 @@ footer .text-foo:hover {
     box-shadow: none;
   }
   .proyect .cont-proy .proy .title-proy, .contact .cont-proy .proy .title-proy {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     color: blue;
     font-family: "Rajdhani", sans-serif;
@@ -1779,11 +1779,11 @@ footer .text-foo:hover {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
   }
   .proyect .cont-proy .proy .text-proy_info, .contact .cont-proy .proy .text-proy_info {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 65px;
     font-family: "Josefin Slab", serif;
     margin-top: 35px;
@@ -1794,7 +1794,7 @@ footer .text-foo:hover {
     font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: "Rajdhani", sans-serif;
     background-color: blue;
     color: white;
@@ -1824,8 +1824,8 @@ footer .text-foo:hover {
     justify-content: center;
     background-color: white;
     height: 700px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 50px;
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
@@ -1950,7 +1950,7 @@ footer .text-foo:hover {
     filter: blur(5px);
   }
 }
-@media only screen and (min-width: 1890px) and (max-width: 1920px) {
+@media only screen and (min-width: 1751px) and (max-width: 2000px) {
   header .navbar {
     background-color: white;
     box-shadow: none;
@@ -1958,7 +1958,7 @@ footer .text-foo:hover {
   header .navbar .nav-text {
     padding-top: 15px;
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Rajdhani", sans-serif;
     font-weight: 500;
   }
@@ -1969,6 +1969,7 @@ footer .text-foo:hover {
   header .navbar .navbar-nav {
     display: flex;
     justify-content: end;
+    font-size: 22px;
   }
   header .navbar .navbar-nav .nav-link:hover {
     color: blue;
@@ -1976,7 +1977,7 @@ footer .text-foo:hover {
   .sec1 {
     background: rgb(255, 255, 255);
     background: linear-gradient(270deg, rgb(255, 255, 255) 47%, rgb(214, 204, 194) 47%);
-    height: 800px;
+    height: 85vh;
   }
   .sec1 .conteiner {
     height: 500px;
@@ -1984,7 +1985,7 @@ footer .text-foo:hover {
     box-shadow: -38px 37px 41px -28px rgba(0, 0, 0, 0.49);
     border-radius: 0%;
     padding-top: 20px;
-    margin-left: 600px;
+    margin-left: 35%;
     margin-right: 700px;
     margin-top: 70px;
     margin-bottom: 50px;
@@ -2014,8 +2015,9 @@ footer .text-foo:hover {
     padding-right: 7px;
     padding-bottom: 3px;
     margin-right: 5px;
-    margin-left: 15px;
+    margin-left: 5px;
     transition: all 0.2s;
+    font-size: 18px;
   }
   .sec1 .conteiner .boton .btn-proy {
     border-radius: 20px;
@@ -2032,7 +2034,7 @@ footer .text-foo:hover {
     font-family: "Rajdhani", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.2s;
   }
   .sec1 .conteiner .boton .btn-cv:active {
@@ -2078,7 +2080,7 @@ footer .text-foo:hover {
   }
   .sec2 {
     position: absolute;
-    left: 59%;
+    left: 60%;
     top: 210px;
     background-color: white;
     height: 508px;
@@ -2113,7 +2115,7 @@ footer .text-foo:hover {
     text-shadow: none;
     font-weight: bold;
     padding-left: 25px;
-    padding-top: 10px;
+    padding-top: 0px;
   }
   footer .foo .text-foo {
     float: left;
@@ -2134,71 +2136,73 @@ footer .text-foo:hover {
   }
   .curriculum, .proyect, .contact {
     background-color: rgb(214, 204, 194);
-    height: 100%;
-    padding-bottom: 50px;
+    height: 100% vh;
+    padding-bottom: 5%;
   }
   .curriculum .title-cv, .proyect .title-cv, .contact .title-cv {
     color: black;
     font-size: 50px;
-    padding-top: 250px;
+    padding-top: 10%;
     text-align: center;
     font-family: "Rajdhani", sans-serif;
     font-weight: bold;
   }
   .curriculum .edu, .proyect .edu, .contact .edu {
     display: flex;
-    justify-content: start;
-    margin-top: 50px;
-  }
-  .curriculum .edu .btn-download, .proyect .edu .btn-download, .contact .edu .btn-download {
-    background-color: blue;
-    color: white;
-    box-shadow: none;
-    text-decoration: none;
-    transition: all 1.5s;
-    border-radius: 50px;
-    padding: 10px;
-    font-family: "Rajdhani", sans-serif;
-    margin-left: 500px;
-    font-size: 20px;
-    transition: all 1.5s;
+    justify-content: center;
+    margin-top: 5%;
   }
   .curriculum .edu .subtitle-cv, .proyect .edu .subtitle-cv, .contact .edu .subtitle-cv {
     font-family: "Rajdhani", sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
-    margin-left: 30%;
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+  .curriculum .edu .btn-download, .proyect .edu .btn-download, .contact .edu .btn-download {
+    margin-top: 0px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-right: 5%;
+    font-family: "Rajdhani", sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all 1s;
+    margin-left: 35%;
   }
   .curriculum .edu .btn-download:hover, .proyect .edu .btn-download:hover, .contact .edu .btn-download:hover {
+    color: black;
     background-color: white;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 9px;
+    border: 1px solid black;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
   .curriculum .cont-edu, .proyect .cont-edu, .contact .cont-edu {
     background-color: rgb(237, 237, 233);
-    height: 250px;
-    width: 600px;
-    margin-left: 650px;
-    margin-right: 650px;
+    height: 300px;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 50px;
     box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
     border-radius: 2px;
   }
   .curriculum .cont-edu .art-edu, .proyect .cont-edu .art-edu, .contact .cont-edu .art-edu {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: nowrap;
   }
   .curriculum .cont-edu .art-edu .title-edu, .proyect .cont-edu .art-edu .title-edu, .contact .cont-edu .art-edu .title-edu {
-    padding-left: 10%;
-    padding-top: 50px;
-    padding-right: 5px;
-    padding-left: 20px;
-    margin: 0px;
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-right: 5%;
+    padding-bottom: 10%;
     font-weight: bold;
     color: blue;
-    font-size: 25px;
+    font-size: 30px;
     text-shadow: black 0px 1px 2px;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
@@ -2208,69 +2212,72 @@ footer .text-foo:hover {
     font-family: "Josefin Slab", serif;
   }
   .curriculum .cont-edu .art-edu .text-edu, .proyect .cont-edu .art-edu .text-edu, .contact .cont-edu .art-edu .text-edu {
-    font-size: 15px;
-    margin-left: 15px;
-    padding-right: 15px;
+    font-size: 20px;
+    margin-left: 5%;
+    padding-right: 5%;
     font-family: "Rajdhani", sans-serif;
-    padding-left: 5px;
-    padding-top: 60px;
+    padding-left: 5%;
+    padding-top: 7%;
     text-align: center;
   }
   .curriculum .cont-edu .art-edu .text-edu_ef, .proyect .cont-edu .art-edu .text-edu_ef, .contact .cont-edu .art-edu .text-edu_ef {
-    font-size: 15px;
-    padding-left: 5px;
-    padding-right: 15px;
-    padding-top: 60px;
-    margin-left: 55px;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    margin-left: 5%;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
   }
   .curriculum .cont-edu .art-edu .text-exp, .proyect .cont-edu .art-edu .text-exp, .contact .cont-edu .art-edu .text-exp {
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 60px;
+    padding-top: 8%;
     margin-left: 5%;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
   }
   .curriculum .cont-apt, .proyect .cont-apt, .contact .cont-apt {
     background-color: rgb(237, 237, 233);
-    height: 750px;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 50px;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
     box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
     border-radius: 2px;
   }
   .curriculum .cont-apt .apt, .proyect .cont-apt .apt, .contact .cont-apt .apt {
-    padding: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
   }
   .curriculum .cont-apt .apt .apt-title, .proyect .cont-apt .apt .apt-title, .contact .cont-apt .apt .apt-title {
     font-family: "Rajdhani", sans-serif;
     font-size: 30px;
     font-weight: bold;
+    padding-top: 5%;
   }
   .curriculum .cont-apt .apt .apt-list, .proyect .cont-apt .apt .apt-list, .contact .cont-apt .apt .apt-list {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     list-style-type: square;
   }
   .curriculum .cont-apt .apt .apt-list .apt-li, .proyect .cont-apt .apt .apt-list .apt-li, .contact .cont-apt .apt .apt-list .apt-li {
     color: blue;
     font-size: 25px;
-    margin-top: 30px;
+    margin-left: 5%;
+    margin-top: 15px;
   }
   .curriculum .cont-apt .apt .apt-list .apt-list_item, .proyect .cont-apt .apt .apt-list .apt-list_item, .contact .cont-apt .apt .apt-list .apt-list_item {
-    margin-right: 70px;
     color: black;
-    font-size: 17px;
+    font-size: 20px;
     font-family: "Josefin Slab", serif;
     font-weight: bold;
   }
   .proyect, .contact {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -2278,12 +2285,12 @@ footer .text-foo:hover {
   .proyect .text-proy, .contact .text-proy {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
-    padding-top: 300px;
+    padding-top: 0px;
     font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 60px;
-    margin-left: 15px;
-    margin-right: 15px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
   }
   .proyect .cont-proy, .contact .cont-proy {
     background-color: rgb(237, 237, 233);
@@ -2309,7 +2316,7 @@ footer .text-foo:hover {
     box-shadow: none;
   }
   .proyect .cont-proy .proy .title-proy, .contact .cont-proy .proy .title-proy {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     color: blue;
     font-family: "Rajdhani", sans-serif;
@@ -2321,21 +2328,22 @@ footer .text-foo:hover {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
   }
   .proyect .cont-proy .proy .text-proy_info, .contact .cont-proy .proy .text-proy_info {
-    font-size: 20px;
-    margin-left: 15px;
+    font-size: 25px;
+    margin-left: 65px;
     font-family: "Josefin Slab", serif;
-    margin-top: 15px;
-    margin-right: 15px;
-    text-align: left;
+    margin-top: 35px;
+    margin-right: 65px;
+    text-align: center;
   }
   .proyect .cont-proy .proy .btn-link, .contact .cont-proy .proy .btn-link {
     font-size: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     font-family: "Rajdhani", sans-serif;
     background-color: blue;
     color: white;
@@ -2353,18 +2361,24 @@ footer .text-foo:hover {
     opacity: 0.9;
     border: 3px solid black;
   }
+  .contact {
+    display: block;
+    height: 100%;
+  }
+  .contact .title-cv {
+    text-align: center;
+  }
   .contact .cont-form {
     display: flex;
     justify-content: center;
     background-color: white;
     height: 800px;
-    margin-left: 600px;
-    margin-right: 600px;
-    width: 700px;
-    margin-top: 80px;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 50px;
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
     box-shadow: -40px 9px 88px -29px rgba(0, 0, 0, 0.49);
     border: 1px solid rgb(237, 237, 233);
@@ -2374,7 +2388,7 @@ footer .text-foo:hover {
     background-color: #ffffff;
     border: none;
     border-bottom: 2px solid #000000;
-    width: 250px;
+    width: 350px;
     text-align: center;
     margin-top: 50px;
   }
@@ -2388,7 +2402,7 @@ footer .text-foo:hover {
     background-color: #ffffff;
     border: none;
     border-bottom: 2px solid #000000;
-    width: 505px;
+    width: 700px;
     text-align: center;
     margin-top: 80px;
   }
@@ -2402,7 +2416,7 @@ footer .text-foo:hover {
     background-color: #ffffff;
     border: none;
     border-bottom: 2px solid #000000;
-    width: 505px;
+    width: 700px;
     text-align: start;
     margin-top: 80px;
     resize: none;
@@ -2425,11 +2439,560 @@ footer .text-foo:hover {
     transition: all 1.5s;
     border-radius: 20px;
     padding: 5px;
-    display: block;
+    display: inline-block;
     text-align: center;
     text-transform: uppercase;
     transition: all 0s;
+  }
+  .contact .cont-form #btn-send:active {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+  .sec3 {
+    background-color: rgb(214, 204, 194);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+  }
+  .sec3 .thx .title-thx {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px rgb(15, 8, 8);
+  }
+  .sec3 .thx #subtitle-thx {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  .sec3 .thx #blurButton {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .sec3 .thx #blurButton .fa-house {
+    color: blue;
+  }
+  .sec3 .thx #blurButton:hover {
+    background-color: blue;
+    color: white;
+  }
+  .sec3 .thx #blurButton:hover .fa-house {
+    color: black;
+  }
+  .blur {
+    filter: blur(5px);
+  }
+}
+@media only screen and (min-width: 2001px) and (max-width: 3300px) {
+  header .navbar {
+    background-color: white;
+    box-shadow: none;
+  }
+  header .navbar .nav-text {
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 35px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+  }
+  header .navbar .nav-log {
+    scale: 1.2;
+    filter: drop-shadow(8px 8px 4px black);
+  }
+  header .navbar .navbar-nav {
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+  }
+  header .navbar .navbar-nav .nav-link:hover {
+    color: blue;
+  }
+  .sec1 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgb(255, 255, 255) 47%, rgb(214, 204, 194) 47%);
+    height: 85vh;
+  }
+  .sec1 .conteiner {
+    height: 679px;
+    width: 500px;
+    box-shadow: -38px 37px 41px -28px rgba(0, 0, 0, 0.49);
+    border-radius: 0%;
+    padding-top: 20px;
+    margin-left: 37%;
+    margin-right: 700px;
+    margin-top: 350px;
+    margin-bottom: 50px;
+  }
+  .sec1 .conteiner .cont-cv {
+    height: 300px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .sec1 .conteiner .title-cv1 {
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  .sec1 .conteiner .boton {
+    margin-top: 60px;
+    scale: 1.5;
+  }
+  .sec1 .conteiner .boton .btn-cv {
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding-top: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all 0.2s;
+    font-size: 25px;
+  }
+  .sec1 .conteiner .boton .btn-proy {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-top: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    margin-right: 15px;
     margin-left: 0px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.2s;
+  }
+  .sec1 .conteiner .boton .btn-cv:active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+  }
+  .sec1 .conteiner .boton .btn-proy:active {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+  }
+  .sec1 .conteiner .menu-cv {
+    margin-top: 50px;
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+  }
+  .sec1 .conteiner .menu-cv a.brands {
+    color: black;
+    text-decoration: none;
+  }
+  .sec1 .conteiner .menu-cv a.brands .fa-whatsapp:hover {
+    transform: scale(1.3);
+  }
+  .sec1 .conteiner .menu-cv a.brands .fa-linkedin-in:hover {
+    transform: scale(1.3);
+  }
+  .sec1 .conteiner .menu-cv a.brands .fa-envelope:hover {
+    transform: scale(1.3);
+  }
+  .sec2 {
+    position: absolute;
+    left: 61%;
+    top: 450px;
+    background-color: white;
+    height: 508px;
+    width: 500px;
+  }
+  .sec2 .title-cv2 {
+    padding: 35px;
+    margin-bottom: 0px;
+    font-size: 100px;
+  }
+  .sec2 .text-sec2 {
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+  footer {
+    height: 50px;
+    background-color: white;
+    border: none;
+    width: 100% vh;
+  }
+  footer .foo {
+    padding-top: 80px;
+  }
+  footer .foo .title-foo {
+    float: left;
+    font-family: "Rajdhani", sans-serif;
+    margin: 0px;
+    font-size: 25px;
+    text-shadow: none;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 0px;
+  }
+  footer .foo .text-foo {
+    float: left;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 25px;
+    color: black;
+    padding-left: 0px;
+    font-weight: 400;
+  }
+  footer .foo .priv-foo {
+    float: right;
+    text-align: right;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 0px;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+  }
+  .curriculum, .proyect, .contact {
+    background-color: rgb(214, 204, 194);
+    height: 100% vh;
+    padding-bottom: 5%;
+  }
+  .curriculum .title-cv, .proyect .title-cv, .contact .title-cv {
+    color: black;
+    font-size: 100px;
+    padding-top: 10%;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+  }
+  .curriculum .edu, .proyect .edu, .contact .edu {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .curriculum .edu .subtitle-cv, .proyect .edu .subtitle-cv, .contact .edu .subtitle-cv {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+  .curriculum .edu .btn-download, .proyect .edu .btn-download, .contact .edu .btn-download {
+    margin-top: 0px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-right: 5%;
+    font-family: "Rajdhani", sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 1s;
+    margin-left: 35%;
+  }
+  .curriculum .edu .btn-download:hover, .proyect .edu .btn-download:hover, .contact .edu .btn-download:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .curriculum .cont-edu, .proyect .cont-edu, .contact .cont-edu {
+    background-color: rgb(237, 237, 233);
+    height: 610px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+    box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+    border-radius: 2px;
+  }
+  .curriculum .cont-edu .art-edu, .proyect .cont-edu .art-edu, .contact .cont-edu .art-edu {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  .curriculum .cont-edu .art-edu .title-edu, .proyect .cont-edu .art-edu .title-edu, .contact .cont-edu .art-edu .title-edu {
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    font-weight: bold;
+    color: blue;
+    font-size: 40px;
+    text-shadow: black 0px 1px 2px;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+  }
+  .curriculum .cont-edu .art-edu .text-fecha, .proyect .cont-edu .art-edu .text-fecha, .contact .cont-edu .art-edu .text-fecha {
+    font-size: 27px;
+    font-family: "Josefin Slab", serif;
+  }
+  .curriculum .cont-edu .art-edu .text-edu, .proyect .cont-edu .art-edu .text-edu, .contact .cont-edu .art-edu .text-edu {
+    font-size: 30px;
+    margin-left: 5%;
+    padding-right: 5%;
+    font-family: "Rajdhani", sans-serif;
+    padding-left: 5%;
+    padding-top: 7%;
+    text-align: center;
+  }
+  .curriculum .cont-edu .art-edu .text-edu_ef, .proyect .cont-edu .art-edu .text-edu_ef, .contact .cont-edu .art-edu .text-edu_ef {
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    margin-left: 5%;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+  }
+  .curriculum .cont-edu .art-edu .text-exp, .proyect .cont-edu .art-edu .text-exp, .contact .cont-edu .art-edu .text-exp {
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8%;
+    margin-left: 5%;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+  }
+  .curriculum .cont-apt, .proyect .cont-apt, .contact .cont-apt {
+    background-color: rgb(237, 237, 233);
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+    border-radius: 2px;
+  }
+  .curriculum .cont-apt .apt, .proyect .cont-apt .apt, .contact .cont-apt .apt {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+  .curriculum .cont-apt .apt .apt-title, .proyect .cont-apt .apt .apt-title, .contact .cont-apt .apt .apt-title {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 5%;
+  }
+  .curriculum .cont-apt .apt .apt-list, .proyect .cont-apt .apt .apt-list, .contact .cont-apt .apt .apt-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style-type: square;
+  }
+  .curriculum .cont-apt .apt .apt-list .apt-li, .proyect .cont-apt .apt .apt-list .apt-li, .contact .cont-apt .apt .apt-list .apt-li {
+    color: blue;
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: 15px;
+  }
+  .curriculum .cont-apt .apt .apt-list .apt-list_item, .proyect .cont-apt .apt .apt-list .apt-list_item, .contact .cont-apt .apt .apt-list .apt-list_item {
+    color: black;
+    font-size: 30px;
+    font-family: "Josefin Slab", serif;
+    font-weight: bold;
+  }
+  .proyect, .contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .proyect .title-cv, .contact .title-cv {
+    margin-left: 250px;
+  }
+  .proyect .text-proy, .contact .text-proy {
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    padding-top: 500px;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 550px;
+    margin-right: 350px;
+  }
+  .proyect .cont-proy, .contact .cont-proy {
+    background-color: rgb(237, 237, 233);
+    height: 400px;
+    width: 900px;
+    margin-right: 10px;
+    margin-left: 250px;
+    box-shadow: -16px 10px 45px -19px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 0px;
+  }
+  .proyect .cont-proy .img-proy, .contact .cont-proy .img-proy {
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 0px;
+    margin-right: 1px;
+    margin-top: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  .proyect .cont-proy .proy .title-proy, .contact .cont-proy .proy .title-proy {
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+    font-family: "Rajdhani", sans-serif;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  .proyect .cont-proy .proy .subtitle-proy, .contact .cont-proy .proy .subtitle-proy {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .proyect .cont-proy .proy .text-proy_info, .contact .cont-proy .proy .text-proy_info {
+    font-size: 25px;
+    margin-left: 65px;
+    font-family: "Josefin Slab", serif;
+    margin-top: 35px;
+    margin-right: 65px;
+    text-align: center;
+  }
+  .proyect .cont-proy .proy .btn-link, .contact .cont-proy .proy .btn-link {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-family: "Rajdhani", sans-serif;
+    background-color: blue;
+    color: white;
+    box-shadow: none;
+    text-decoration: none;
+    transition: all 1.5s;
+    border-radius: 50px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+  }
+  .proyect .cont-proy .proy .btn-link:hover, .contact .cont-proy .proy .btn-link:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    opacity: 0.9;
+    border: 3px solid black;
+  }
+  .contact {
+    height: 100%;
+  }
+  .contact .title-cv {
+    text-align: center;
+  }
+  .contact .cont-form {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 1000px;
+    margin-top: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: -40px 9px 88px -29px rgba(0, 0, 0, 0.49);
+    border: 1px solid rgb(237, 237, 233);
+  }
+  .contact .cont-form .input-s {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 350px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .contact .cont-form .input-s:focus {
+    outline: none;
+    font-weight: bold;
+    border-bottom: 3px solid #000000;
+  }
+  .contact .cont-form .input-l {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 700px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .contact .cont-form .input-l:focus {
+    outline: none;
+    font-weight: bold;
+    border-bottom: 3px solid #000000;
+  }
+  .contact .cont-form .input-txt {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 700px;
+    text-align: start;
+    margin-top: 80px;
+    resize: none;
+  }
+  .contact .cont-form .input-txt:focus {
+    outline: none;
+    font-weight: bold;
+    color: blue;
+    border-bottom: 3px solid blue;
+  }
+  .contact .cont-form #btn-send {
+    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+    background-color: blue;
+    color: white;
+    margin-top: 55px;
+    width: 150px;
+    border: none;
+    text-decoration: none;
+    transition: all 1.5s;
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0s;
   }
   .contact .cont-form #btn-send:active {
     background-color: white;
