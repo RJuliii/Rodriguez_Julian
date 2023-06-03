@@ -884,7 +884,7 @@ footer .text-foo:hover {
   .sec1 {
     background: rgb(255, 255, 255);
     background: linear-gradient(270deg, rgb(255, 255, 255) 47%, rgb(214, 204, 194) 47%);
-    height: 100vh;
+    height: 100%;
   }
   .sec1 .conteiner {
     height: 500px;
@@ -1181,7 +1181,7 @@ footer .text-foo:hover {
     font-weight: bold;
   }
   .proyect, .contact {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1430,7 +1430,7 @@ footer .text-foo:hover {
   .sec1 {
     background: rgb(255, 255, 255);
     background: linear-gradient(270deg, rgb(255, 255, 255) 47%, rgb(214, 204, 194) 47%);
-    height: 100vh;
+    height: 100%;
   }
   .sec1 .conteiner {
     height: 500px;
@@ -1728,7 +1728,7 @@ footer .text-foo:hover {
     font-weight: bold;
   }
   .proyect, .contact {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

@@ -991,7 +991,7 @@ footer{
     .sec1{
         background: rgb(255,255,255);
         background: linear-gradient(270deg, rgba(255,255,255,1) 47%, $color1 47%);
-        height: 100vh;
+        height: 100%;
         .conteiner{
             height: 500px;
             width: 400px;
@@ -1292,7 +1292,7 @@ footer{
     }
     // PROYECTOS
     .proyect{
-        height: 100vh;
+        height: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -1553,7 +1553,7 @@ footer{
     .sec1{
         background: rgb(255,255,255);
         background: linear-gradient(270deg, rgba(255,255,255,1) 47%, $color1 47%);
-        height: 100vh;
+        height: 100%;
         .conteiner{
             height: 500px;
             width: 400px;
@@ -1855,7 +1855,7 @@ footer{
     }
     // PROYECTOS
     .proyect{
-        height: 100vh;
+        height: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
